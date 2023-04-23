@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "../homepage/homepage.css";
 import AboutUS from "../Aboutus/AboutUS";
 import ContactUsComponent from "../contactUs/contactUsComponent";
-import FooterComponent from "../../../Component/layout/Footer/FooterComponent";
 import LoadingComponent from "../../../Component/loadingComponent/loadingComponent";
 
 const { Content } = Layout;
@@ -39,8 +38,8 @@ const Homepage = () => {
                     </Link>
                   </Col>
                   <Col span={6}>
-                    <Link to="/Project-calculator">
-                      <Button className="border-success rounded-pill" type="primary" href="/create-product">
+                    <Link to="/form-exp">
+                      <Button className="border-success rounded-pill" type="primary">
                         CREATE PRODUCT
                       </Button>
                     </Link>
