@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./calculator.css";
 import { Input, Button, Space, Typography } from "antd";
 
 const { Title } = Typography;
@@ -38,7 +39,7 @@ const Calculator = () => {
     setResult("");
   };
   return (
-    <div>
+    <div className="body">
       <Title level={2}>Calculator</Title>
       <Space direction="vertical" size={16}>
         <Input placeholder="Enter first number" value={num1} onChange={handleNum1Change} />
