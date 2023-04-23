@@ -19,7 +19,7 @@ const Aboutme = () => {
     getUsersData();
   }, []);
   return (
-    <div>
+    <div className="data">
       <h1 className="title">About me</h1>
       {isLoadingUserData ? (
         <LoadingComponent />
