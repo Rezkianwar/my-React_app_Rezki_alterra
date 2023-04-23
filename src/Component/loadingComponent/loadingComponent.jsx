@@ -1,8 +1,8 @@
 import { Spin } from "antd";
 import React from "react";
-import "./LoadingComponent.css";
+import "./loadingComponent.css";
 
-const LoadingComponent = () => {
+const loadingComponent = () => {
   return (
     <div className="Loading-container">
       <Spin size="large" tip="Loading..." />
@@ -10,4 +10,4 @@ const LoadingComponent = () => {
   );
 };
 
-export default LoadingComponent;
+export default loadingComponent;
