@@ -26,7 +26,7 @@ const FormComponent = () => {
 
   const [value, setValue] = useState();
   return (
-    <>
+    <div className="form">
       <Title> Form Data Mahasiswa</Title>
       <Form name="Bio" layout="horizontal" onFinish={onFinish}>
         <Form.Item
@@ -136,7 +136,7 @@ const FormComponent = () => {
           <li>Summary : {modalData.Summary}</li>
         </ol>
       </Modal>
-    </>
+    </div>
   );
 };
 
