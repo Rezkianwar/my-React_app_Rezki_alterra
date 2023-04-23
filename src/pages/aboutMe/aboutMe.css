@@ -1,3 +1,6 @@
+.data {
+  padding: 30px;
+}
 .title {
   font-weight: bold;
   font-size: 50px;
