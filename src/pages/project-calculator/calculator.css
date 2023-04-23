@@ -1,0 +1,67 @@
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.calculator .ant-space-vertical {
+  width: 100%;
+}
+
+.calculator .ant-input {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.calculator .ant-input-group-addon {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.calculator .ant-input[disabled] {
+  background-color: #f9f9f9;
+}
+
+.calculator .ant-btn {
+  font-size: 16px;
+  width: 100%;
+}
+
+.calculator .ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.calculator .ant-btn-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.calculator .ant-btn-danger {
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+}
+
+.calculator .ant-btn-danger:hover {
+  background-color: #ff7875;
+  border-color: #ff7875;
+}
+
+.calculator .ant-btn-default {
+  background-color: #fff;
+  border-color: #d9d9d9;
+}
+
+.calculator .ant-btn-default:hover {
+  background-color: #f5f5f5;
+  border-color: #d9d9d9;
+}
