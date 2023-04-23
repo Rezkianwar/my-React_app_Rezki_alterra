@@ -1,0 +1,27 @@
+.container-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 100px;
+}
+
+.card {
+  background-color: #b3c99c;
+}
+
+.login-form-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
