@@ -102,7 +102,7 @@ const FormComponent = () => {
   };
 
   return (
-    <>
+    <div className="form">
       <Title>Form Biodata Mahasiswa</Title>
 
       {/* Form */}
@@ -214,7 +214,7 @@ const FormComponent = () => {
 
       {/* Table */}
       <Table columns={TABLE_COLUMNS} dataSource={data} />
-    </>
+    </div>
   );
 };
 
